@@ -1,0 +1,20 @@
+2. Clone and Initialize Master Branch
+Clone the repository to your local system and create an initial file:Bashgit clone <repository-url>
+cd Git_PullRequests
+touch file1.txt
+echo "This file is created in master branch" > file1.txt
+git add file1.txt
+git commit -m "Initial commit in master"
+git push origin main
+3. Create a Feature Branch
+Create and switch to a new branch named feature-1 to develop changes safely:Bashgit branch feature-1
+git checkout feature-1
+4. Modify Files in Feature Branch
+Make changes and add a new file within the branch:Bashecho "This change is from feature-1 branch" >> file1.txt
+touch feature.txt
+echo "Feature branch file" > feature.txt
+git add .
+git commit -m "Changes done in feature-1"
+5. Push Feature Branch to GitHub
+Upload the branch to the remote repository:Bashgit push origin feature-1
+6. Create and Review Pull Request (GitHub UI)Open your GitHub repository and click Compare & pull request.Ensure base: master and compare: feature-1 are selected.Add a description and click Create pull request.Review the code to check for errors or improvements.7. Merge Pull RequestClick Merge pull request and then Confirm merge
