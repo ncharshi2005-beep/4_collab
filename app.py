@@ -16,7 +16,7 @@ def binary_search(arr, target)://function
     return -1  # Target not found
 
 # Example usage:
-my_list = [1, 3, 5, 7, 9]
+my_list = [1,2,3,4]
 print(binary_search(my_list, 3)) # Output: 1
 print(binary_search(my_list, -1)) # Output: -1
 print("done")
