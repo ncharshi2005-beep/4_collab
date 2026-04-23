@@ -25,3 +25,7 @@ Synchronize your local machine and delete the feature branch:Bashgit checkout ma
 git pull origin master
 git branch -d feature-1
 git push origin --delete feature-1
+
+
+Aim:
+To understand and implement team-based software development using GitHub by forking a repository, creating a feature branch, making changes, raising a pull request, reviewing the changes, and merging them into the main branch. This experiment helps in learning collaborative development practices followed in real-world software projects.Theory:GitHub Collaboration: Allows multiple developers to work on the same project simultaneously without affecting the stability of the master branch.Forking: Creates a personal copy of an existing repository in a user’s GitHub account for independent changes.Pull Request (PR): A request to merge changes from a feature branch into the master branch, enabling code review and discussion.Code Review: Team members check the PR for correctness and standards before it is merged to preserve version history.
